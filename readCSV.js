@@ -2,7 +2,7 @@ const fs = require("fs");
 const { parse } = require("csv-parse");
 
 
-fs.createReadStream("./medicine.csv")
+fs.createReadStream("./CSVName.csv")
   .pipe(parse({ delimiter: ",", from_line: 2 }))
   .on("data", function (column) {
     console.log(column);
