@@ -1,0 +1,24 @@
+{
+  "name": "csv.file-reader-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvraj3905/CSV.File-Reader-with-NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuvraj3905/CSV.File-Reader-with-NodeJs/issues"
+  },
+  "homepage": "https://github.com/Yuvraj3905/CSV.File-Reader-with-NodeJs#readme",
+  "dependencies": {
+    "csv": "^6.3.1",
+    "sqlite3": "^5.1.6"
+  }
+}
